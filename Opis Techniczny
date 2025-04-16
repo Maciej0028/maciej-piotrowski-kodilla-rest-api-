@@ -1,0 +1,8 @@
+Projek aplikacji opiera się na lokalnej bazie danych MySQL i backendzie aplikacji napisanej w języku java w której przy wykorzystaniu metod HTTP
+zapisywane są zadania (task) metodą POST,
+oczywiście jest również możliwość ich edycji metodą PUT,
+usuwania metodą DELETE,
+lub wyświetlania wszystkich bądź jednego zadania po ID metodą GET.
+Wszystko dzieję się przy wykorzystaniu głównie biblioteki Spring Web do obsługi żądań HTTP oraz napisania kontrolerów REST.
+Natomiast połączenie oraz operacje CRUD na bazie danych umożliwiły biblioteki Spring Data JPA  oraz MySQL Driver.
+Niezastąpiona jednak w projekcie okazała się biblioteka Lombok która sprawnie pozwoliła ograniczyć powtarzający się kod co wpłynęło na czytelność.
